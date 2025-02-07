@@ -1,0 +1,78 @@
+# Python/Django
+__pycache__/
+__pycache__
+.DS_Store
+*.sqlite3
+*.py[cod]
+*.so
+.Python
+*.env
+env/
+venv/
+ENV/
+.env.*
+*.log
+*.pot
+*.pyc
+local_settings.py
+media/
+staticfiles/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!example.tfvars
+.terraformrc
+terraform.rc
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# IDE/Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+*.sublime-workspace
+*.sublime-project
+
+# AWS
+.aws/
+aws.json
+credentials.json
+
+# Docker
+.docker/
+*.env.docker
+.env.prod
+.env.dev
+
+# Dependencies
+node_modules/
+bower_components/
+
+# Build/Deploy
+build/
+dist/
+*.tar.gz
+*.zip
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+coverage.xml
+nosetests.xml
+
+# Misc
+*.bak
+*.tmp
+*.temp
+.cache/
+logs/
